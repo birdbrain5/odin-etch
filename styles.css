@@ -1,0 +1,14 @@
+.button {
+    background-color:rgb(61, 91, 190);
+    color:white;
+    text-align:center;
+    font-size:5em;
+}
+
+.button:hover{
+    background-color:rgb(94, 120, 206);
+}
+
+.grid{
+    
+}
