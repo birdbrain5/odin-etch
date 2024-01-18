@@ -9,6 +9,21 @@
     background-color:rgb(94, 120, 206);
 }
 
-.grid{
-    
+#grid{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column; 
+    /* note to self: flex-direction makes the elements in the flex container populate in that direction. So flex-direction column means elements are instantiated from top to bottom */
+    height:30em;
+    width:30em;
+}
+
+.grid-item{
+    background-color:rgb(0, 0, 0);
+    flex-grow:1;
+}
+
+.grid-row{
+    display:flex;
+    flex-grow:1;
 }
